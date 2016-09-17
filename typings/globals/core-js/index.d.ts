@@ -50,7 +50,7 @@ interface Function {
 // #############################################################################################
 // ECMAScript 6: Array
 // Modules: es6.array.from, es6.array.of, es6.array.copy-within, es6.array.fill, es6.array.find,
-//          and es6.array.find-index
+//          and es6.array.find-index.ts
 // #############################################################################################
 
 interface Array<T> {
@@ -66,7 +66,7 @@ interface Array<T> {
     find(predicate: (value: T, index: number, obj: Array<T>) => boolean, thisArg?: any): T;
 
     /**
-      * Returns the index of the first element in the array where predicate is true, and undefined
+      * Returns the index.ts of the first element in the array where predicate is true, and undefined
       * otherwise.
       * @param predicate find calls predicate once for each element of the array, in ascending
       * order, until it finds one where predicate returns true. If such an element is found, find
@@ -79,9 +79,9 @@ interface Array<T> {
     /**
       * Returns the this object after filling the section identified by start and end with value
       * @param value value to fill array section with
-      * @param start index to start filling the array at. If start is negative, it is treated as
+      * @param start index.ts to start filling the array at. If start is negative, it is treated as
       * length+start where length is the length of the array.
-      * @param end index to stop filling the array at. If end is negative, it is treated as
+      * @param end index.ts to stop filling the array at. If end is negative, it is treated as
       * length+end.
       */
     fill(value: T, start?: number, end?: number): T[];
@@ -945,16 +945,16 @@ interface ArrayConstructor {
     unshift<T>(array: ArrayLike<T>, ...items: T[]): number;
 
     /**
-      * Returns the index of the first occurrence of a value in an array.
+      * Returns the index.ts of the first occurrence of a value in an array.
       * @param searchElement The value to locate in the array.
-      * @param fromIndex The array index at which to begin the search. If fromIndex is omitted, the search starts at index 0.
+      * @param fromIndex The array index.ts at which to begin the search. If fromIndex is omitted, the search starts at index.ts 0.
       */
     indexOf<T>(array: ArrayLike<T>, searchElement: T, fromIndex?: number): number;
 
     /**
-      * Returns the index of the last occurrence of a specified value in an array.
+      * Returns the index.ts of the last occurrence of a specified value in an array.
       * @param searchElement The value to locate in the array.
-      * @param fromIndex The array index at which to begin the search. If fromIndex is omitted, the search starts at the last index in the array.
+      * @param fromIndex The array index.ts at which to begin the search. If fromIndex is omitted, the search starts at the last index.ts in the array.
       */
     lastIndexOf<T>(array: ArrayLike<T>, earchElement: T, fromIndex?: number): number;
 
@@ -1048,7 +1048,7 @@ interface ArrayConstructor {
     find<T>(array: ArrayLike<T>, predicate: (value: T, index: number, obj: Array<T>) => boolean, thisArg?: any): T;
 
     /**
-      * Returns the index of the first element in the array where predicate is true, and undefined
+      * Returns the index.ts of the first element in the array where predicate is true, and undefined
       * otherwise.
       * @param predicate find calls predicate once for each element of the array, in ascending
       * order, until it finds one where predicate returns true. If such an element is found, find
@@ -1061,9 +1061,9 @@ interface ArrayConstructor {
     /**
       * Returns the this object after filling the section identified by start and end with value
       * @param value value to fill array section with
-      * @param start index to start filling the array at. If start is negative, it is treated as
+      * @param start index.ts to start filling the array at. If start is negative, it is treated as
       * length+start where length is the length of the array.
-      * @param end index to stop filling the array at. If end is negative, it is treated as
+      * @param end index.ts to stop filling the array at. If end is negative, it is treated as
       * length+end.
       */
     fill<T>(array: ArrayLike<T>, value: T, start?: number, end?: number): T[];

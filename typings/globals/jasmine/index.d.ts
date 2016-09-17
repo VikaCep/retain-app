@@ -441,7 +441,7 @@ declare namespace jasmine {
         any(): boolean;
         /** By chaining the spy with calls.count(), will return the number of times the spy was called **/
         count(): number;
-        /** By chaining the spy with calls.argsFor(), will return the arguments passed to call number index **/
+        /** By chaining the spy with calls.argsFor(), will return the arguments passed to call number index.ts **/
         argsFor(index: number): any[];
         /** By chaining the spy with calls.allArgs(), will return the arguments to all calls **/
         allArgs(): any[];
